@@ -15,6 +15,9 @@ import reactToWebComponent from "react-to-webcomponent";
 
 import App from "./App";
 
-const WebApp = reactToWebComponent(App, React, ReactDOMClient);
+const WebApp = reactToWebComponent(App, React, ReactDOMClient, {
+  dashStyleAttributes: true,
+  shadow: true,
+});
 
 customElements.define("web-app", WebApp);
