@@ -1,4 +1,4 @@
-import viteLogo from "/vite.svg";
+import viteLogo from "./assets/react.svg";
 import "./App.css";
 
 function App() {
