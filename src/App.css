@@ -4,6 +4,14 @@
   padding: 2rem;
   text-align: center;
 }
+.custom{
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  color:red;
+  text-decoration: none;
+  background-color: green;
+}
 
 .logo {
   height: 6em;
